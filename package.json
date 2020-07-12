@@ -1,0 +1,10 @@
+{
+	"scripts": {
+		"build": "postcss css/tailwind.css -o public/build/tailwind.css"
+	},
+	"dependencies": {
+		"@fullhuman/postcss-purgecss": "^2.3.0",
+		"postcss": "^7.0.32",
+		"tailwindcss": "^1.4.6"
+	}
+}
